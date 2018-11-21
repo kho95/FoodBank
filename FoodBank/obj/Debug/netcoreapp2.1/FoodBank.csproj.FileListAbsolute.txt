@@ -1,0 +1,14 @@
+D:\Projects\FoodBank\FoodBank\bin\Debug\netcoreapp2.1\FoodBank.deps.json
+D:\Projects\FoodBank\FoodBank\bin\Debug\netcoreapp2.1\FoodBank.runtimeconfig.json
+D:\Projects\FoodBank\FoodBank\bin\Debug\netcoreapp2.1\FoodBank.runtimeconfig.dev.json
+D:\Projects\FoodBank\FoodBank\bin\Debug\netcoreapp2.1\FoodBank.dll
+D:\Projects\FoodBank\FoodBank\bin\Debug\netcoreapp2.1\FoodBank.pdb
+D:\Projects\FoodBank\FoodBank\obj\Debug\netcoreapp2.1\FoodBank.csprojAssemblyReference.cache
+D:\Projects\FoodBank\FoodBank\obj\Debug\netcoreapp2.1\FoodBank.csproj.CoreCompileInputs.cache
+D:\Projects\FoodBank\FoodBank\obj\Debug\netcoreapp2.1\FoodBank.RazorAssemblyInfo.cache
+D:\Projects\FoodBank\FoodBank\obj\Debug\netcoreapp2.1\FoodBank.RazorAssemblyInfo.cs
+D:\Projects\FoodBank\FoodBank\obj\Debug\netcoreapp2.1\FoodBank.AssemblyInfoInputs.cache
+D:\Projects\FoodBank\FoodBank\obj\Debug\netcoreapp2.1\FoodBank.AssemblyInfo.cs
+D:\Projects\FoodBank\FoodBank\obj\Debug\netcoreapp2.1\FoodBank.RazorTargetAssemblyInfo.cache
+D:\Projects\FoodBank\FoodBank\obj\Debug\netcoreapp2.1\FoodBank.dll
+D:\Projects\FoodBank\FoodBank\obj\Debug\netcoreapp2.1\FoodBank.pdb
