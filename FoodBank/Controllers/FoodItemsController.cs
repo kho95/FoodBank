@@ -129,15 +129,21 @@ namespace FoodBank.Controllers
             return _context.FoodItem.Any(e => e.Id == id);
         }
 
-        // GET: api/FoodItem/Tags
+        // GET: api/FoodItemz/Tags
         [Route("tags")]
         [HttpGet]
-        public async Task<List<string>> GetTags()
+        public async Task<List<FoodItem>> GetTagsItem([FromQuery] string tags)
         {
-            var foods = (from m in _context.FoodItem
-                         select m.Tags).Distinct();
+            var foods = from m in _context.FoodItem
+                        select m; //get all the memes
 
-            var returned = await foods.ToListAsync();
+
+            if (!String.IsNullOrEmpty(tags)) //make sure user gave a tag to search
+            {
+                foods = foods.Where(s => s.Tags.ToLower().Contains(tags.ToLower()) || s.Title.ToLower().Contains(tags.ToLower())); // find the entries with the search tag and reassign
+            }
+
+            var returned = await foods.ToListAsync(); //return the memes
 
             return returned;
         }
